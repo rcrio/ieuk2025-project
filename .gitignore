@@ -1,0 +1,51 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Log files
+*.log
+!logs.log   # Keep logs.log tracked
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker-related
+*.pid
+*.seed
+*.pid.lock
+*.tar
+*.tar.gz
+
+# VS Code settings
+.vscode/
+
+# System-specific
+*.swp
+*.swo
+
+# Security-related
+*.pem
+*.key
+*.crt
+
+# Zone identifier (Windows)
+*.Zone.Identifier
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
